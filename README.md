@@ -1,2 +1,31 @@
 # front-vue2
 vue2知识
+
+- 1.初始化以npm管理 npm init -y
+- 2.安装vue npm install vue
+- 3.安装语法提示插件 Vue 2 Snippets
+- 4.谷歌安装插件vue devtools
+- 5.v-bind给html标签的属性绑定
+- 6.v-model双向绑定
+- 7.v-on:click简写@click
+    - [事件修饰符](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6),阻止事件冒泡或者阻止事件默认行为
+    - [按键修饰符](https://cn.vuejs.org/v2/guide/events.html#%E6%8C%89%E9%94%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6),可以使用组合键，比如ctrl+单击才有效果
+- 8.v-for遍历
+    - 遍历的时候都加上:key来区分不同数据，提高vue渲染效率,需要是唯一的，如果没有可以用索引Index
+- 9. v-if，顾名思义，条件判断。当得到结果为true时，所在的元素才会被渲染,v-else-if,v-else
+   - v-show，当得到结果为true时，所在的元素才会被显示,用样式控制
+- 10.计算属性和侦听器
+    - computed某些结果是基于之前数据实时计算出来的，我们可以利用计算属性
+    - watch可以让我们监控一个值的变化。从而做出相应的反应
+- 11.过滤器，过滤器常用来处理文本格式化的操作。过滤器可以用在两个地方：双花括号插值和 v-bind 表达式
+    - 局部过滤器，只可以在当前vue实例中使用，全局过滤器可以在全局使用，只需要定义一次
+- 12.组件化
+    - Vue.component()全局声明注册一个组件
+    - const buttonCounter局部声明一个组件,需要在vue实例里的components定义
+- 13.[生命周期](https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA)
+- 14.[vue模块化开发](https://cli.vuejs.org/zh/guide/creating-a-project.html#vue-create)
+    - npm install webpack -g
+    - npm install -g @vue/cli
+    - vue init webpack vue-demo
+    - vue create hello-world
+    - vue ui
