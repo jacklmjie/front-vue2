@@ -29,3 +29,8 @@ vue2知识
     - vue init webpack vue-demo
     - vue create hello-world
     - vue ui
+- 15.[Vue-整合ElementUI快速开发](https://element.eleme.cn/#/zh-CN/component/quickstart)
+    - npm i element-ui -S
+    - main.js 引入Element
+    - [Container 布局容器搭建后台基本框架](https://element.eleme.cn/#/zh-CN/component/container)
+    - 使用vsCode的代码片段，引用模板减少编辑
